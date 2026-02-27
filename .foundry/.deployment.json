@@ -1,0 +1,8 @@
+{
+  "hostedAgentDeployOptions": {
+    "dockerContextPath": "c:\\Users\\cacaste\\source\\repos\\zava-sales-manager-hosted-agent",
+    "dockerfilePath": "c:\\Users\\cacaste\\source\\repos\\zava-sales-manager-hosted-agent\\Dockerfile",
+    "cpu": "1.0",
+    "memory": "2.0Gi"
+  }
+}

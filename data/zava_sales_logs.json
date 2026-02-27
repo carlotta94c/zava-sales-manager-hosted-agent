@@ -1,0 +1,877 @@
+{
+  "sales_period": {
+    "start_date": "2025-01-01",
+    "end_date": "2026-02-28"
+  },
+  "monthly_sales": [
+    {
+      "month": "2025-01",
+      "total_revenue": 45820,
+      "total_transactions": 312,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 5240,
+          "units_sold": 287,
+          "transactions": 89,
+          "top_selling_subcategory": "MEASURING TOOLS"
+        },
+        "POWER TOOLS": {
+          "revenue": 12350,
+          "units_sold": 98,
+          "transactions": 72,
+          "top_selling_subcategory": "DRILLS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 3420,
+          "units_sold": 156,
+          "transactions": 45,
+          "top_selling_subcategory": "INTERIOR PAINT"
+        },
+        "HARDWARE": {
+          "revenue": 6780,
+          "units_sold": 453,
+          "transactions": 67,
+          "top_selling_subcategory": "SCREWS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 8920,
+          "units_sold": 234,
+          "transactions": 28,
+          "top_selling_subcategory": "DIMENSIONAL LUMBER"
+        },
+        "ELECTRICAL": {
+          "revenue": 4560,
+          "units_sold": 312,
+          "transactions": 56,
+          "top_selling_subcategory": "WIRE"
+        },
+        "PLUMBING": {
+          "revenue": 2890,
+          "units_sold": 145,
+          "transactions": 34,
+          "top_selling_subcategory": "PIPE FITTINGS"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 980,
+          "units_sold": 67,
+          "transactions": 12,
+          "top_selling_subcategory": "HOSES"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 680,
+          "units_sold": 34,
+          "transactions": 9,
+          "top_selling_subcategory": "STORAGE BINS"
+        }
+      }
+    },
+    {
+      "month": "2025-02",
+      "total_revenue": 42150,
+      "total_transactions": 289,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 4890,
+          "units_sold": 265,
+          "transactions": 82,
+          "top_selling_subcategory": "SCREWDRIVERS"
+        },
+        "POWER TOOLS": {
+          "revenue": 11240,
+          "units_sold": 89,
+          "transactions": 68,
+          "top_selling_subcategory": "SANDERS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 3120,
+          "units_sold": 142,
+          "transactions": 41,
+          "top_selling_subcategory": "PRIMER"
+        },
+        "HARDWARE": {
+          "revenue": 6320,
+          "units_sold": 421,
+          "transactions": 62,
+          "top_selling_subcategory": "NAILS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 8450,
+          "units_sold": 218,
+          "transactions": 26,
+          "top_selling_subcategory": "PLYWOOD"
+        },
+        "ELECTRICAL": {
+          "revenue": 4230,
+          "units_sold": 289,
+          "transactions": 52,
+          "top_selling_subcategory": "OUTLETS"
+        },
+        "PLUMBING": {
+          "revenue": 2670,
+          "units_sold": 134,
+          "transactions": 31,
+          "top_selling_subcategory": "PVC PIPE"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 780,
+          "units_sold": 52,
+          "transactions": 10,
+          "top_selling_subcategory": "SOIL"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 450,
+          "units_sold": 28,
+          "transactions": 7,
+          "top_selling_subcategory": "TOOL BOXES"
+        }
+      }
+    },
+    {
+      "month": "2025-03",
+      "total_revenue": 58920,
+      "total_transactions": 378,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 6450,
+          "units_sold": 342,
+          "transactions": 102,
+          "top_selling_subcategory": "WRENCHES"
+        },
+        "POWER TOOLS": {
+          "revenue": 15680,
+          "units_sold": 124,
+          "transactions": 89,
+          "top_selling_subcategory": "CIRCULAR SAWS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 5890,
+          "units_sold": 267,
+          "transactions": 68,
+          "top_selling_subcategory": "EXTERIOR PAINT"
+        },
+        "HARDWARE": {
+          "revenue": 7920,
+          "units_sold": 534,
+          "transactions": 78,
+          "top_selling_subcategory": "HINGES"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 11230,
+          "units_sold": 289,
+          "transactions": 34,
+          "top_selling_subcategory": "DRYWALL"
+        },
+        "ELECTRICAL": {
+          "revenue": 5340,
+          "units_sold": 367,
+          "transactions": 65,
+          "top_selling_subcategory": "SWITCHES"
+        },
+        "PLUMBING": {
+          "revenue": 3450,
+          "units_sold": 178,
+          "transactions": 42,
+          "top_selling_subcategory": "FAUCETS"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 2140,
+          "units_sold": 156,
+          "transactions": 28,
+          "top_selling_subcategory": "SEEDS"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 820,
+          "units_sold": 45,
+          "transactions": 12,
+          "top_selling_subcategory": "SHELVING"
+        }
+      }
+    },
+    {
+      "month": "2025-04",
+      "total_revenue": 67340,
+      "total_transactions": 423,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 7230,
+          "units_sold": 389,
+          "transactions": 115,
+          "top_selling_subcategory": "PLIERS"
+        },
+        "POWER TOOLS": {
+          "revenue": 17450,
+          "units_sold": 138,
+          "transactions": 98,
+          "top_selling_subcategory": "IMPACT DRIVERS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 8920,
+          "units_sold": 412,
+          "transactions": 95,
+          "top_selling_subcategory": "EXTERIOR PAINT"
+        },
+        "HARDWARE": {
+          "revenue": 8670,
+          "units_sold": 589,
+          "transactions": 84,
+          "top_selling_subcategory": "BOLTS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 12450,
+          "units_sold": 321,
+          "transactions": 38,
+          "top_selling_subcategory": "TREATED POSTS"
+        },
+        "ELECTRICAL": {
+          "revenue": 5780,
+          "units_sold": 396,
+          "transactions": 71,
+          "top_selling_subcategory": "EXTENSION CORDS"
+        },
+        "PLUMBING": {
+          "revenue": 3890,
+          "units_sold": 201,
+          "transactions": 47,
+          "top_selling_subcategory": "VALVES"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 4560,
+          "units_sold": 312,
+          "transactions": 58,
+          "top_selling_subcategory": "FERTILIZER"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 1390,
+          "units_sold": 67,
+          "transactions": 17,
+          "top_selling_subcategory": "PEGBOARD"
+        }
+      }
+    },
+    {
+      "month": "2025-05",
+      "total_revenue": 78560,
+      "total_transactions": 487,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 8120,
+          "units_sold": 423,
+          "transactions": 128,
+          "top_selling_subcategory": "HAMMERS"
+        },
+        "POWER TOOLS": {
+          "revenue": 19870,
+          "units_sold": 156,
+          "transactions": 112,
+          "top_selling_subcategory": "MITER SAWS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 11240,
+          "units_sold": 498,
+          "transactions": 118,
+          "top_selling_subcategory": "BRUSHES"
+        },
+        "HARDWARE": {
+          "revenue": 9450,
+          "units_sold": 634,
+          "transactions": 92,
+          "top_selling_subcategory": "HANDLES & KNOBS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 13680,
+          "units_sold": 356,
+          "transactions": 42,
+          "top_selling_subcategory": "OSB"
+        },
+        "ELECTRICAL": {
+          "revenue": 6230,
+          "units_sold": 428,
+          "transactions": 78,
+          "top_selling_subcategory": "LIGHT FIXTURES"
+        },
+        "PLUMBING": {
+          "revenue": 4120,
+          "units_sold": 218,
+          "transactions": 51,
+          "top_selling_subcategory": "COPPER PIPE"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 7890,
+          "units_sold": 534,
+          "transactions": 98,
+          "top_selling_subcategory": "PLANTERS"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 1960,
+          "units_sold": 89,
+          "transactions": 22,
+          "top_selling_subcategory": "WORKBENCHES"
+        }
+      }
+    },
+    {
+      "month": "2025-06",
+      "total_revenue": 82340,
+      "total_transactions": 512,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 8560,
+          "units_sold": 445,
+          "transactions": 134,
+          "top_selling_subcategory": "MEASURING TOOLS"
+        },
+        "POWER TOOLS": {
+          "revenue": 20450,
+          "units_sold": 162,
+          "transactions": 118,
+          "top_selling_subcategory": "JIGSAWS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 12680,
+          "units_sold": 534,
+          "transactions": 128,
+          "top_selling_subcategory": "WOOD STAIN"
+        },
+        "HARDWARE": {
+          "revenue": 9890,
+          "units_sold": 667,
+          "transactions": 98,
+          "top_selling_subcategory": "LOCKS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 14120,
+          "units_sold": 378,
+          "transactions": 45,
+          "top_selling_subcategory": "CONCRETE MIX"
+        },
+        "ELECTRICAL": {
+          "revenue": 6450,
+          "units_sold": 445,
+          "transactions": 82,
+          "top_selling_subcategory": "CONDUIT"
+        },
+        "PLUMBING": {
+          "revenue": 4340,
+          "units_sold": 234,
+          "transactions": 55,
+          "top_selling_subcategory": "PIPE INSULATION"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 8920,
+          "units_sold": 612,
+          "transactions": 112,
+          "top_selling_subcategory": "HOSES"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 2430,
+          "units_sold": 104,
+          "transactions": 28,
+          "top_selling_subcategory": "OVERHEAD STORAGE"
+        }
+      }
+    },
+    {
+      "month": "2025-07",
+      "total_revenue": 76890,
+      "total_transactions": 478,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 7980,
+          "units_sold": 412,
+          "transactions": 125,
+          "top_selling_subcategory": "ALLEN KEYS"
+        },
+        "POWER TOOLS": {
+          "revenue": 18920,
+          "units_sold": 149,
+          "transactions": 109,
+          "top_selling_subcategory": "ANGLE GRINDERS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 11450,
+          "units_sold": 501,
+          "transactions": 121,
+          "top_selling_subcategory": "POLYURETHANE"
+        },
+        "HARDWARE": {
+          "revenue": 9340,
+          "units_sold": 623,
+          "transactions": 91,
+          "top_selling_subcategory": "WASHERS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 13230,
+          "units_sold": 345,
+          "transactions": 41,
+          "top_selling_subcategory": "TRIM BOARDS"
+        },
+        "ELECTRICAL": {
+          "revenue": 5980,
+          "units_sold": 412,
+          "transactions": 76,
+          "top_selling_subcategory": "WIRE NUTS"
+        },
+        "PLUMBING": {
+          "revenue": 4010,
+          "units_sold": 212,
+          "transactions": 50,
+          "top_selling_subcategory": "TEFLON TAPE"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 8670,
+          "units_sold": 589,
+          "transactions": 108,
+          "top_selling_subcategory": "SPRINKLERS"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 2310,
+          "units_sold": 98,
+          "transactions": 26,
+          "top_selling_subcategory": "PLASTIC DRAWERS"
+        }
+      }
+    },
+    {
+      "month": "2025-08",
+      "total_revenue": 71230,
+      "total_transactions": 445,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 7450,
+          "units_sold": 389,
+          "transactions": 118,
+          "top_selling_subcategory": "HAND SAWS"
+        },
+        "POWER TOOLS": {
+          "revenue": 17680,
+          "units_sold": 140,
+          "transactions": 102,
+          "top_selling_subcategory": "ROUTERS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 10230,
+          "units_sold": 456,
+          "transactions": 112,
+          "top_selling_subcategory": "SPRAY PAINT"
+        },
+        "HARDWARE": {
+          "revenue": 8890,
+          "units_sold": 601,
+          "transactions": 87,
+          "top_selling_subcategory": "HASPS & LATCHES"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 12340,
+          "units_sold": 323,
+          "transactions": 38,
+          "top_selling_subcategory": "MOLDING"
+        },
+        "ELECTRICAL": {
+          "revenue": 5670,
+          "units_sold": 389,
+          "transactions": 72,
+          "top_selling_subcategory": "JUNCTION BOXES"
+        },
+        "PLUMBING": {
+          "revenue": 3780,
+          "units_sold": 198,
+          "transactions": 47,
+          "top_selling_subcategory": "DRAIN CLEANING"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 7340,
+          "units_sold": 512,
+          "transactions": 95,
+          "top_selling_subcategory": "OUTDOOR LIGHTING"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 1850,
+          "units_sold": 78,
+          "transactions": 21,
+          "top_selling_subcategory": "HOOKS & HANGERS"
+        }
+      }
+    },
+    {
+      "month": "2025-09",
+      "total_revenue": 64120,
+      "total_transactions": 398,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 6780,
+          "units_sold": 356,
+          "transactions": 107,
+          "top_selling_subcategory": "FILES & RASPS"
+        },
+        "POWER TOOLS": {
+          "revenue": 15890,
+          "units_sold": 126,
+          "transactions": 92,
+          "top_selling_subcategory": "BELT SANDERS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 8920,
+          "units_sold": 398,
+          "transactions": 98,
+          "top_selling_subcategory": "INTERIOR PAINT"
+        },
+        "HARDWARE": {
+          "revenue": 8230,
+          "units_sold": 556,
+          "transactions": 81,
+          "top_selling_subcategory": "BRACKETS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 11120,
+          "units_sold": 289,
+          "transactions": 34,
+          "top_selling_subcategory": "CEMENT BOARD"
+        },
+        "ELECTRICAL": {
+          "revenue": 5120,
+          "units_sold": 351,
+          "transactions": 65,
+          "top_selling_subcategory": "CIRCUIT BREAKERS"
+        },
+        "PLUMBING": {
+          "revenue": 3450,
+          "units_sold": 178,
+          "transactions": 42,
+          "top_selling_subcategory": "TOILET PARTS"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 5890,
+          "units_sold": 401,
+          "transactions": 74,
+          "top_selling_subcategory": "MULCH"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 1720,
+          "units_sold": 72,
+          "transactions": 19,
+          "top_selling_subcategory": "CABINETS"
+        }
+      }
+    },
+    {
+      "month": "2025-10",
+      "total_revenue": 59670,
+      "total_transactions": 372,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 6340,
+          "units_sold": 334,
+          "transactions": 101,
+          "top_selling_subcategory": "SCREWDRIVERS"
+        },
+        "POWER TOOLS": {
+          "revenue": 14780,
+          "units_sold": 117,
+          "transactions": 86,
+          "top_selling_subcategory": "RECIPROCATING SAWS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 7890,
+          "units_sold": 351,
+          "transactions": 86,
+          "top_selling_subcategory": "PAINT TRAYS"
+        },
+        "HARDWARE": {
+          "revenue": 7670,
+          "units_sold": 518,
+          "transactions": 76,
+          "top_selling_subcategory": "CASTERS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 10340,
+          "units_sold": 267,
+          "transactions": 32,
+          "top_selling_subcategory": "INSULATION"
+        },
+        "ELECTRICAL": {
+          "revenue": 4780,
+          "units_sold": 328,
+          "transactions": 61,
+          "top_selling_subcategory": "ELECTRICAL TAPE"
+        },
+        "PLUMBING": {
+          "revenue": 3230,
+          "units_sold": 167,
+          "transactions": 39,
+          "top_selling_subcategory": "PLUMBER'S PUTTY"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 3450,
+          "units_sold": 234,
+          "transactions": 43,
+          "top_selling_subcategory": "PRUNING TOOLS"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 1190,
+          "units_sold": 51,
+          "transactions": 14,
+          "top_selling_subcategory": "LOCKER SYSTEMS"
+        }
+      }
+    },
+    {
+      "month": "2025-11",
+      "total_revenue": 53240,
+      "total_transactions": 335,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 5670,
+          "units_sold": 301,
+          "transactions": 91,
+          "top_selling_subcategory": "WRENCHES"
+        },
+        "POWER TOOLS": {
+          "revenue": 13240,
+          "units_sold": 105,
+          "transactions": 77,
+          "top_selling_subcategory": "DRILLS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 6230,
+          "units_sold": 278,
+          "transactions": 68,
+          "top_selling_subcategory": "DROP CLOTHS"
+        },
+        "HARDWARE": {
+          "revenue": 6890,
+          "units_sold": 467,
+          "transactions": 68,
+          "top_selling_subcategory": "SCREWS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 9230,
+          "units_sold": 239,
+          "transactions": 28,
+          "top_selling_subcategory": "DIMENSIONAL LUMBER"
+        },
+        "ELECTRICAL": {
+          "revenue": 4340,
+          "units_sold": 298,
+          "transactions": 55,
+          "top_selling_subcategory": "WIRE"
+        },
+        "PLUMBING": {
+          "revenue": 2890,
+          "units_sold": 149,
+          "transactions": 35,
+          "top_selling_subcategory": "PVC PIPE"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 1560,
+          "units_sold": 106,
+          "transactions": 20,
+          "top_selling_subcategory": "HAND TOOLS"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 1190,
+          "units_sold": 51,
+          "transactions": 13,
+          "top_selling_subcategory": "STORAGE BINS"
+        }
+      }
+    },
+    {
+      "month": "2025-12",
+      "total_revenue": 48670,
+      "total_transactions": 298,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 5120,
+          "units_sold": 273,
+          "transactions": 82,
+          "top_selling_subcategory": "MEASURING TOOLS"
+        },
+        "POWER TOOLS": {
+          "revenue": 11890,
+          "units_sold": 94,
+          "transactions": 69,
+          "top_selling_subcategory": "IMPACT DRIVERS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 5340,
+          "units_sold": 238,
+          "transactions": 58,
+          "top_selling_subcategory": "PRIMER"
+        },
+        "HARDWARE": {
+          "revenue": 6340,
+          "units_sold": 429,
+          "transactions": 63,
+          "top_selling_subcategory": "HINGES"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 8450,
+          "units_sold": 218,
+          "transactions": 26,
+          "top_selling_subcategory": "PLYWOOD"
+        },
+        "ELECTRICAL": {
+          "revenue": 3980,
+          "units_sold": 273,
+          "transactions": 51,
+          "top_selling_subcategory": "LIGHT FIXTURES"
+        },
+        "PLUMBING": {
+          "revenue": 2670,
+          "units_sold": 138,
+          "transactions": 32,
+          "top_selling_subcategory": "FAUCETS"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 1120,
+          "units_sold": 76,
+          "transactions": 14,
+          "top_selling_subcategory": "OUTDOOR LIGHTING"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 3760,
+          "units_sold": 162,
+          "transactions": 39,
+          "top_selling_subcategory": "TOOL BOXES"
+        }
+      }
+    },
+    {
+      "month": "2026-01",
+      "total_revenue": 51340,
+      "total_transactions": 325,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 5680,
+          "units_sold": 298,
+          "transactions": 90,
+          "top_selling_subcategory": "PLIERS"
+        },
+        "POWER TOOLS": {
+          "revenue": 12670,
+          "units_sold": 100,
+          "transactions": 73,
+          "top_selling_subcategory": "SANDERS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 4890,
+          "units_sold": 218,
+          "transactions": 53,
+          "top_selling_subcategory": "INTERIOR PAINT"
+        },
+        "HARDWARE": {
+          "revenue": 7120,
+          "units_sold": 481,
+          "transactions": 70,
+          "top_selling_subcategory": "NAILS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 9120,
+          "units_sold": 236,
+          "transactions": 28,
+          "top_selling_subcategory": "DRYWALL"
+        },
+        "ELECTRICAL": {
+          "revenue": 4560,
+          "units_sold": 313,
+          "transactions": 58,
+          "top_selling_subcategory": "OUTLETS"
+        },
+        "PLUMBING": {
+          "revenue": 2980,
+          "units_sold": 154,
+          "transactions": 36,
+          "top_selling_subcategory": "VALVES"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 1230,
+          "units_sold": 84,
+          "transactions": 16,
+          "top_selling_subcategory": "SOIL"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 3090,
+          "units_sold": 133,
+          "transactions": 33,
+          "top_selling_subcategory": "SHELVING"
+        }
+      }
+    },
+    {
+      "month": "2026-02",
+      "total_revenue": 54890,
+      "total_transactions": 347,
+      "categories": {
+        "HAND TOOLS": {
+          "revenue": 6010,
+          "units_sold": 316,
+          "transactions": 95,
+          "top_selling_subcategory": "HAMMERS"
+        },
+        "POWER TOOLS": {
+          "revenue": 13450,
+          "units_sold": 106,
+          "transactions": 78,
+          "top_selling_subcategory": "CIRCULAR SAWS"
+        },
+        "PAINT & FINISHES": {
+          "revenue": 5670,
+          "units_sold": 253,
+          "transactions": 62,
+          "top_selling_subcategory": "BRUSHES"
+        },
+        "HARDWARE": {
+          "revenue": 7560,
+          "units_sold": 511,
+          "transactions": 74,
+          "top_selling_subcategory": "BOLTS"
+        },
+        "LUMBER & BUILDING MATERIALS": {
+          "revenue": 9670,
+          "units_sold": 251,
+          "transactions": 30,
+          "top_selling_subcategory": "OSB"
+        },
+        "ELECTRICAL": {
+          "revenue": 4890,
+          "units_sold": 336,
+          "transactions": 62,
+          "top_selling_subcategory": "SWITCHES"
+        },
+        "PLUMBING": {
+          "revenue": 3230,
+          "units_sold": 167,
+          "transactions": 39,
+          "top_selling_subcategory": "PIPE FITTINGS"
+        },
+        "GARDEN & OUTDOOR": {
+          "revenue": 1780,
+          "units_sold": 121,
+          "transactions": 23,
+          "top_selling_subcategory": "SEEDS"
+        },
+        "STORAGE & ORGANIZATION": {
+          "revenue": 2630,
+          "units_sold": 113,
+          "transactions": 28,
+          "top_selling_subcategory": "PEGBOARD"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_revenue_14_months": 883190,
+    "average_monthly_revenue": 63085,
+    "total_transactions": 5299,
+    "average_monthly_transactions": 378,
+    "peak_sales_month": "2025-06",
+    "lowest_sales_month": "2025-12",
+    "best_performing_category": "POWER TOOLS",
+    "seasonal_trends": {
+      "spring": "High sales in paint, garden, and outdoor categories",
+      "summer": "Peak overall sales with strong lumber and hardware performance",
+      "fall": "Declining sales, focus on indoor projects and storage",
+      "winter": "Lowest sales period, increased tool purchases as gifts in December"
+    }
+  }
+}
