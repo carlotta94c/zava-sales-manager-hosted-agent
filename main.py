@@ -1,6 +1,6 @@
 """
 Sales Management Agent - An intelligent assistant that helps sales teams
-analyze sales data and manage inventory across different channels and formats.
+analyze sales data and manage inventory.
 Ready for deployment to Foundry Hosted Agent service.
 """
 
