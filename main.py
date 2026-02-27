@@ -19,7 +19,7 @@ from agent_framework import (
     HostedVectorStoreContent,
     ai_function,
 )
-from agent_framework.azure import AzureAIClient
+from agent_framework.azure import AzureAIAgentClient
 from azure.ai.agentserver.agentframework import from_agent_framework
 from azure.ai.agentserver.agentframework.persistence import InMemoryAgentThreadRepository
 from azure.identity.aio import DefaultAzureCredential
@@ -149,14 +149,17 @@ async def main():
         )
         
         # Create the agent with tools
-        agent = ChatAgent(
-            chat_client=AzureAIClient(
+        async with (
+        DefaultAzureCredential() as credential,
+        AzureAIAgentClient(
                 project_endpoint=PROJECT_ENDPOINT,
                 model_deployment_name=MODEL_DEPLOYMENT_NAME,
-                credential=credential,
-                agent_name="zava-sales-manager",
-            ),
+                credential=credential
+            ) as client,
+        ):
+            agent = client.create_agent(
             instructions=AGENT_INSTRUCTIONS,
+            name= "zava-sm-agent",
             tools=[
                 file_search_tool,
                 code_interpreter_tool,
