@@ -13,7 +13,6 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 from agent_framework import (
-    ChatAgent,
     HostedCodeInterpreterTool,
     HostedFileSearchTool,
     HostedVectorStoreContent,
