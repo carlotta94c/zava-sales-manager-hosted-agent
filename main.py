@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 
 load_dotenv(override=True)
 
-from agent_framework import ChatAgent, HostedFileSearchTool, HostedVectorStoreContent
-from agent_framework.azure import AzureAIAgentClient
+from agent_framework import ChatAgent, HostedCodeInterpreterTool, HostedFileSearchTool, HostedVectorStoreContent
+from agent_framework.azure import AzureAIClient
 from azure.ai.agentserver.agentframework import from_agent_framework
 from azure.ai.agentserver.agentframework.persistence import InMemoryAgentThreadRepository
 from azure.identity.aio import DefaultAzureCredential
@@ -44,21 +44,28 @@ async def main():
             max_results=20,
             description="Search Zava product catalog and sales data from the vector store"
         )
+
+        # Code interpreter tool for data analysis, calculations, and chart generation
+        code_interpreter_tool = HostedCodeInterpreterTool(
+            description="Execute Python code for sales data analysis, calculations, and chart generation"
+        )
         
         # Create the agent with tools
         agent = ChatAgent(
-            chat_client=AzureAIAgentClient(
+            chat_client=AzureAIClient(
                 project_endpoint=PROJECT_ENDPOINT,
                 model_deployment_name=MODEL_DEPLOYMENT_NAME,
                 credential=credential,
+                agent_name="zava-sales-manager",
             ),
             instructions=AGENT_INSTRUCTIONS,
-            tools=[file_search_tool],
+            tools=[file_search_tool, code_interpreter_tool],
         )
 
         print("Zava Sales Manager Agent Server running on http://localhost:8088")
         print("Using in-memory thread repository - conversation history persists during this session")
         print(f"File Search enabled with vector store: vs_3tzkgfpKfOgAO5LkHtD4cPJt")
+        print("Code Interpreter enabled for data analysis and chart generation")
         
         server = from_agent_framework(agent, thread_repository=thread_repository)
         await server.run_async()
