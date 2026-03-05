@@ -1,7 +1,7 @@
 azure-ai-agentserver-agentframework==1.0.0b14
 azure-ai-agentserver-core==1.0.0b14
-starlette<0.46
+starlette>=0.49.3,<0.50
 opentelemetry-semantic-conventions-ai==0.4.13
+# Development-only dependencies (excluded from Docker build)
 debugpy
-# Agent development CLI tool (preview)
 agent-dev-cli
